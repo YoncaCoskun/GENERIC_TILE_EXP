@@ -1,18 +1,29 @@
 {
   "run": [
     {
-      "filePath": "/sap.m.sample.GenericTileAsKPITile/index.html",
+      "filePath": "/GENERIC_TILE_EXP/index.html",
       "previewMode": 0,
       "dataMode": 1,
       "workspace": "withoutWorkspace",
       "ui5ActiveVersion": null,
       "ui5VerSource": null,
       "isDefaultVersion": 0,
-      "urlParameters": [],
+      "urlParameters": [
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        },
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        }
+      ],
       "_metadata": {
-        "runnerId": "webapprunner",
         "id": 8562462,
-        "displayName": "New Web Application 4"
+        "runnerId": "webapprunner",
+        "displayName": "GenericTile"
       }
     }
   ]
