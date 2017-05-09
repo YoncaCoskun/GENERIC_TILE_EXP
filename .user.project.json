@@ -1,0 +1,19 @@
+{
+  "run": [
+    {
+      "filePath": "/sap.m.sample.GenericTileAsKPITile/index.html",
+      "previewMode": 0,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 8562462,
+        "displayName": "New Web Application 4"
+      }
+    }
+  ]
+}

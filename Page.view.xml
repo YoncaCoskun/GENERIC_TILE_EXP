@@ -1,0 +1,98 @@
+<mvc:View controllerName="sap.m.sample.GenericTileAsKPITile.Page" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Warehouse No" press="press" subheader="Material Text" headerImage="sap-icon://inbox">
+		<tileContent>
+			<TileContent>
+				<content>
+					<VBox>
+						<HBox>
+							<Label text="POF"></Label>
+							<NumericContent class="numericTile" indicator="Up" scale="%" value="34" valueColor="Critical"/>
+						</HBox>
+						<HBox>
+							<Label text="POA"></Label>
+							<NumericContent class="numericTile" indicator="Up" scale="%" value="45" valueColor="Good"/>
+						</HBox>
+					</VBox>
+				</content>
+			</TileContent>
+			<TileContent>
+				<content>
+					<VBox>
+						<HBox>
+							<Label text="MQ"></Label>
+							<NumericContent class="numericTile" indicator="None" scale="ADT" value="43" valueColor="Critical"/>
+						</HBox>
+						<HBox>
+							<Label text="AQ"></Label>
+							<NumericContent class="numericTile" indicator="None" scale="ADT" value="78" valueColor="Good"/>
+						</HBox>
+					</VBox>
+				</content>
+			</TileContent>
+		</tileContent>
+	</GenericTile>
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Warehouse No" press="press" subheader="Material Text" headerImage="sap-icon://inbox">
+		<tileContent>
+			<TileContent>
+				<content>
+					<VBox>
+						<HBox>
+							<Label text="POF" id="test"></Label>
+							<NumericContent class="numericTile" indicator="Up" scale="%" value="34" valueColor="Critical"/>
+						</HBox>
+						<HBox>
+							<Label text="POA"></Label>
+							<NumericContent class="numericTile" indicator="Up" scale="%" value="45" valueColor="Good"/>
+						</HBox>
+					</VBox>
+				</content>
+			</TileContent>
+			<TileContent>
+				<content>
+					<VBox>
+						<HBox>
+							<Label text="MQ"></Label>
+							<NumericContent class="numericTile" indicator="None" scale="ADT" value="43" valueColor="Critical"/>
+						</HBox>
+						<HBox>
+							<Label text="AQ"></Label>
+							<NumericContent class="numericTile" indicator="None" scale="ADT" value="78" valueColor="Good"/>
+						</HBox>
+					</VBox>
+				</content>
+			</TileContent>
+		</tileContent>
+	</GenericTile>
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Warehouse No" press="press" subheader="Material Text" headerImage="sap-icon://inbox">
+		<tileContent>
+			<TileContent>
+				<content>
+					<VBox>
+						<HBox>
+							<Label text="POF"></Label>
+							<NumericContent class="numericTile" indicator="Up" scale="%" value="21" valueColor="Critical"/>
+						</HBox>
+						<HBox>
+							<Label text="POA"></Label>
+							<NumericContent class="numericTile" indicator="Up" scale="%" value="87" valueColor="Good"/>
+						</HBox>
+					</VBox>
+				</content>
+			</TileContent>
+			<TileContent>
+				<content>
+					<VBox>
+						<HBox>
+							<Label text="MQ"></Label>
+							<NumericContent class="numericTile" indicator="None" scale="" value="23" valueColor="Critical"/>
+						</HBox>
+						<HBox>
+							<Label text="AQ"></Label>
+							<NumericContent class="numericTile" indicator="None" scale="" value="79" valueColor="Good"/>
+						</HBox>
+					</VBox>
+				</content>
+			</TileContent>
+		</tileContent>
+	</GenericTile>
+</mvc:View>
